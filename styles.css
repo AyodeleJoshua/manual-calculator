@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 400px;
+}
+
+.underlay {
+    background: black;
+    width: 400px;
+}
+
+.screen {
+    width: 100%;
+    height: 80px;
+    font-family: monospace;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 10px;
+    /* background: red; */
+}
+
+.button-set {
+    width: 100%;
+    /* height: 400px; */
+    /* display: flex; */
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row :last-child {
+    background-color: rgb(223, 151, 76);
+    color: white;
+}
+
+.button {
+    /* width: 120px; */
+    background: rgb(218, 213, 209);
+    font-size: 32px;
+    height: 110px;
+    margin: 0 1px 1px 0px;
+    border: black 1px solid;
+    cursor: pointer;
+    /* flex: 1; */
+}
+
+.button:hover {
+    filter: brightness(85%);
+}
+
+.three1 {
+    width: 49.85%;
+}
+
+.three2, .three3 {
+    width: 24.8%;
+    font-size: 40px;
+}
+
+.four {
+    width: 24.8%;
+}
+
+.zero-key {
+    width: 75%;
+}
+
+.two2 {
+    width: 24.8%;
+}
+
